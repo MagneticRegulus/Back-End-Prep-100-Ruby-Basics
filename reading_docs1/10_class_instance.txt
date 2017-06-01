@@ -1,0 +1,23 @@
+Class and Instance Methods
+
+Exercise: Locate the ruby documentation for methods File::path and File#path.
+How are they different?
+
+Answers:
+
+File::path - https://ruby-doc.org/core-2.3.1/File.html#method-c-path
+
+This returns the string representation of a path:
+File.path("/dev/null")          #=> "/dev/null"
+
+File#path - https://ruby-doc.org/core-2.3.1/File.html#method-i-path
+
+This returns the pathname used to create the file as a string.
+
+File.new("testfile").path               #=> "testfile"
+
+Differences: The class method can return the stringed path of any file.
+The instance method, however, will only return the stringed path of the current
+file.
+
+Contect: Instance methods are called on objects.

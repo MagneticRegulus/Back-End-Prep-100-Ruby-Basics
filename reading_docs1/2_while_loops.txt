@@ -1,0 +1,11 @@
+
+while Loops
+
+Exercise: Locate the description of the while loop in the ruby documentation.
+
+Answer: https://ruby-doc.org/core-2.3.1/doc/syntax/control_expressions_rdoc.html#label-while+Loop
+
+An important thing to note for myself is that I am using the correct core for
+the version of ruby on my machine.
+
+I then navigated to syntax > control expressions.

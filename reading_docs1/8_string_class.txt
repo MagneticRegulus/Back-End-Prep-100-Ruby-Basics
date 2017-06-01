@@ -1,0 +1,6 @@
+
+String Class
+
+Exercise: Locate and open the class documentation for the String class.
+
+Answer: https://ruby-doc.org/core-2.3.1/String.html

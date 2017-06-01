@@ -1,0 +1,8 @@
+
+Where to Find Documentation
+
+Questions: Where can you find the most complete Ruby documentation?
+
+Answer: https://ruby-doc.org/ contains all the core API documentation for Ruby.
+I am currently refering to Ruby core 2.3.1 as this is the version currently
+installed on my machine.
