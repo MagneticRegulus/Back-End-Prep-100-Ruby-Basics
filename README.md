@@ -6,4 +6,5 @@ This README is intended for teachers or TAs at Launch School who may assess my w
 
 ### Notes and Updates
 
+* June 3, 2017: Exercises 37 - 56 completed.
 * June 1, 2017: First 36 exercises completed.
