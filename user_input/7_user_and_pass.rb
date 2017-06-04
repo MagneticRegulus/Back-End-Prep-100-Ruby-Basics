@@ -11,11 +11,29 @@ users = {
 
 loop do
   puts 'Please enter user name:'
-  username = gets.chomp.downcase.to_s
+  username = gets.chomp.downcase.to_sym
   puts 'Pleaser enter password:'
   password = gets.chomp
-  break if users[username] == password # not working!
+  break if users[username] == password
   puts 'Authorization failed!'
+end
+
+puts 'Welcome!'
+
+# Soltuion version:
+
+USERNAME = 'admin'
+PASSWORD = 'SecreT'
+
+loop do
+  puts '>> Please enter your user name:'
+  user_name = gets.chomp
+
+  puts '>> Please enter your password:'
+  password_try = gets.chomp
+
+  break if user_name == USERNAME && password_try == PASSWORD
+  puts '>> Authorization failed!'
 end
 
 puts 'Welcome!'
